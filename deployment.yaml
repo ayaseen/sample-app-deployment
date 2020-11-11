@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: gitopsbook/sample-app:a56428e
+        image: quya.io/ayaseen/sample-app:latest
         name: sample-app
         ports:
         - containerPort: 8080
