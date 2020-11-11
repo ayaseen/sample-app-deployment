@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: quya.io/ayaseen/sample-app:latest
+        image: quay.io/ayaseen/sample-app:latest
         name: sample-app
         ports:
         - containerPort: 8080
