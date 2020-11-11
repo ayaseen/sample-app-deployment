@@ -16,7 +16,7 @@ spec:
       containers:
       - command:
         - /app/sample-app
-        image: ayaseen/sample-app:latest
+        image: ayaseen/sample-app:da010f2
         name: sample-app
         ports:
         - containerPort: 8080
